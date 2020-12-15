@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 12px;
+  line-height: 2;
+  color: hsl(229, 6%, 66%);
+  margin-top: 5px;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container2 {
+  margin: auto;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first-div {
+  width: 65%;
+  min-width: 360px;
+  max-width: 500px;
+  text-align: center;
+  margin: 4rem auto 3rem;
+  /* margin: 5rem auto; */
+}
+
+.top-h {
+  font-weight: 200;
+  margin-bottom: 3px;
+  color: hsl(229, 6%, 66%);
+}
+
+.bottom-h {
+  margin-top: 3px;
+}
+
+.top-p {
+  text-align: inherit;
+  line-height: normal;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  margin: auto;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  box-shadow: 5px 20px 20px hsl(229, 6%, 66%);
+}
+
+.team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  box-shadow: 5px 20px 20px hsl(229, 6%, 66%);
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  box-shadow: 5px 20px 20px hsl(229, 6%, 66%);
+}
+
+.calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  box-shadow: 5px 20px 20px hsl(229, 6%, 66%);
+}
+
+.three{
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 65%;
+  margin: 10px 20px;
+}
+
+.picture {
+  margin: 10px 30px 0;
+  align-self: flex-end;
+}
+
+.wrap {
+  width: 360px;
+  height: 220px;
+  background-color: white;
+  border-radius: 3%;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
